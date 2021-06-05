@@ -76,6 +76,9 @@
     flex-direction: column-reverse;
     height: 1000px;
   }
+  .text-big {
+    margin-top: 5px;
+  }
 
   .contact {
     height: 620px;
