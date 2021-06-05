@@ -1,0 +1,28 @@
+{
+  "name": "ieducate",
+  "version": "1.0.0",
+  "description": "This is ieducate project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hassan-1byte/ieducate.git"
+  },
+  "keywords": [
+    "ieducate"
+  ],
+  "author": "Hassan Qayyum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hassan-1byte/ieducate/issues"
+  },
+  "homepage": "https://github.com/Hassan-1byte/ieducate#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "mongoose": "^5.12.12"
+  }
+}
