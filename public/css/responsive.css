@@ -13,6 +13,7 @@
   .box-main {
     flex-direction: column-reverse;
     max-width: 100%;
+    /* margin: 0px 113px; */
   }
   .secondHalf {
     width: 28%;

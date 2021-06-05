@@ -30,6 +30,10 @@ hbs.registerPartials(partials_path); //<= hbs nay partials dir ko register kr li
 app.use(express.static(static_path));
 
 // End Points -- Routing
+app.get("/", function (req, res) {
+  res.render("index");
+});
+
 app.post("/index", async (req, res) => {
   const PostiEducate = new ieducateCollection({
     name: req.body.name,
